@@ -9,8 +9,8 @@
 ### Files
 |   #   | File     | Description                      |
 | :---: | -------- | -------------------------------- |
-|   1   |[main.cpp](https://github.com/DomHaw21/2143-OOP-HAWKINS/blob/main/Assignments/P01/main.cpp)|                   |
-|   2   |[input.dat](https://github.com/DomHaw21/2143-OOP-HAWKINS/blob/main/Assignments/P01/input.dat)|                 |
-|   3   |[output.dat](https://github.com/DomHaw21/2143-OOP-HAWKINS/blob/main/Assignments/P01/output.dat)|               |
+|   1   |[main.cpp](https://github.com/DomHaw21/2143-OOP-HAWKINS/blob/main/Assignments/P01/main.cpp)| main driver |
+|   2   |[input.dat](https://github.com/DomHaw21/2143-OOP-HAWKINS/blob/main/Assignments/P01/input.dat)| input file |
+|   3   |[output.dat](https://github.com/DomHaw21/2143-OOP-HAWKINS/blob/main/Assignments/P01/output.dat)| output file |
 ### Instructions
 - This Program does not require any non standard libraries
