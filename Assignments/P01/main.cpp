@@ -21,9 +21,9 @@
 *     N/A
 * 
 *  Files:            
-*			main.cpp				:driver program
-*			input.dat				:file to get data to make the list
-*			output.dat			:displays list
+*	main.cpp   :driver program
+*	input.dat  :file to get data to make the list
+*	output.dat :displays list
 *
 *****************************************************************************/
 #include <iostream>				
