@@ -664,7 +664,7 @@ int main(){
 	outfile << endl;
 	outfile << endl;
 
-	int num = 21;
+	int num = 0;
 
 	num =V1.popFront();
 	
@@ -692,9 +692,9 @@ int main(){
 	outfile << endl;
 	outfile << endl;
 
-	num = V1.Find(5);										//finds num 5 in list
+	num = V1.Find(9);										//finds num 5 in list
 
-	outfile << "5 was at pos: " << num; 
+	outfile << "9 was at pos: " << num; 
 	outfile << endl;
 
 	outfile.close();
