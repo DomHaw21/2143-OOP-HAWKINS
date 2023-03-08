@@ -1,7 +1,21 @@
-//Dominique Hawkins
-//2143
-//OOP
-#include <fstream>
+/*****************************************************************************
+ *
+ *  Author:           Dominique Hawkins
+ *  Title:            Graphviz Class
+ *  Course:           2143
+ *  Semester:         Spring 2023
+ *
+ *  Description:
+      Generates a Graphviz graph with "Dot" syntax. It can add nodes, edges, and edges between nodes.
+      It gives the option for colored nodes/edges, edge direction, and edge/node shape.
+ *        
+ *
+ *  Usage:
+ *    To let the user create a visual representaion of using Graphviz in c++
+ *
+ * Files: main.cpp
+ * Files: test.out
+ *****************************************************************************/
 #include <iostream>
 #include <map>
 #include <vector>
