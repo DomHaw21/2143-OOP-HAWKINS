@@ -1,1 +1,16 @@
+Dominique Hawkins
+2143
+OOP
+
+digraph linkedList {
+0 [color="black", shape="record"]
+1 [color="red", label="4", shape="circle"]
+2 [color="yellow", shape="star", style="solid"]
+3 [color="black", shape="pentagon", style="invisible"]
+4 [color="black", label="{ <data> 56 | <next> }", shape="record"]
+0 -> 1 [arrowhead="crow", arrowtail="dot", color="green", dir="both"]
+1 -> 2 [arrowhead="curve", color="green"]
+2 -> 3 [arrowhead="icurve", arrowtail="none", color="black", dir="both"]
+3 -> 4 [arrowhead="vee", color="brown", dir="none"]
+}
 
