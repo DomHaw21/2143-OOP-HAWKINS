@@ -27,7 +27,7 @@ using namespace std;
  * Attribute
  *
  * Description:
- *  allows the creation of an att. map.
+ *  allows the creation of an att map.
  *
  * Public Methods:
  *      Attribute()
@@ -89,7 +89,10 @@ public:
  *
  * Public Methods:
  *      Edge()
- *    
+ *      Edge(string color, string arrow, string arrowtail,
+ *           string direction, string tailclip)
+ *      Edge(int start, int end)
+ *
  * Private Methods:
  *      int   eid
  *      int   start
@@ -269,35 +272,35 @@ int main() {
   
   map<string, string> defNode;
   // Attribute that gets a map of attributes and
-  Attributes A;
+  // adds them to "A"
+  Attribute A;
   defEdge["color"] = "red";
   defEdge["arrowhead"] = "vee";
   A.addAttributes(defEdge);
   
   defNode["shape"] = "record";
-  defNode["color"] = "black";
+  defNode["color"] = "grey";
   A.addAttributes(defNode);
 
 
   // makes the linked list nodes and adds the attributes
   int nodeId = V.addNode(defNode);
   nodeId = V.addNode();
-  V.editNode(1, "shape", "circle");
+  V.editNode(1, "shape", "box");
   V.editNode(1, "color", "red");
   V.editNode(1, "label", "4");
   nodeId = V.addNode();
   V.editNode(2, "shape", "star");
-  V.editNode(2, "color", "yellow");
-  V.editNode(2, "style", "solid");
   nodeId = V.addNode();
   V.editNode(3, "shape", "pentagon");
   V.editNode(3, "color", "black");
   V.editNode(3, "style", "invisible");
   nodeId = V.addNode(defNode);
   V.editNode(4, "label", "{ <data> 56 | <next> }");
+  V.editNode(4, "shape", "oval");
 
   
- //makes the edges and edits them
+  //makes the edges and edits them
   V.addEdge(0, 1, defEdge);
   V.editEdge(0, "color", "green");
   V.editEdge(0, "arrowhead", "crow");
@@ -309,11 +312,11 @@ int main() {
   V.addEdge(2, 3, defEdge);
   V.editEdge(2, "color", "black");
   V.editEdge(2, "arrowhead", "icurve");
-  V.editEdge(2, "arrowtail", "none");
   V.editEdge(2, "dir", "both");
   V.addEdge(3, 4, defEdge);
   V.editEdge(3, "color", "brown");
   V.editEdge(3, "dir", "none");
+  V.addEdge(4, 5, defEdge);
 
   //prints the output file
   outfile << V << endl;
