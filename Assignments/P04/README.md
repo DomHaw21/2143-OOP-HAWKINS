@@ -10,4 +10,4 @@
 |   #   | File     | Description                      |
 | :---: | -------- | -------------------------------- |
 |   1   |[main.cpp](https://github.com/DomHaw21/2143-OOP-HAWKINS/blob/main/Assignments/P04/main.cpp)|main driver|
-|   2   |[Banner.txt](https://github.com/DomHaw21/2143-OOP-HAWKINS/blob/main/Assignments/P04/Banner.txt)|
+|   2   |[Banner.txt](https://github.com/DomHaw21/2143-OOP-HAWKINS/blob/main/Assignments/P04/Banner.txt)|Banner file|
