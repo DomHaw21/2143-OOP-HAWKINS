@@ -1,7 +1,6 @@
 ## P04 - Graphiz Class
 ### Dominique Hawkins
 ### Description:
-
   This program defines two classes, Die and Dice, that simulate the rolling of dice.
   The Die class represents a single die with a certain number of sides, and has a method roll() that returns a random value between 1 and the number of sides of the die.
   The Dice class represents a collection of dice with the same number of sides. It has methods to calculate the sum, maximum, minimum, and average of the values obtained
