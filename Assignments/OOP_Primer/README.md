@@ -71,45 +71,57 @@ For example, a car "is-a" vehicle, so a Car class can inherit from a Vehicle cla
 # Instance Variable
 
 ### Definition
-
+An instance variable is a variable that belongs to an instance of a class, also known as an object. Each instance of a class has its own set of instance variables, which can have different values for each object.
 
 # Member/Local Variable
 
 ### Definition
+Local variables are created when the method, constructor or block is entered and the variable will be destroyed once it exits the method, constructor, or block.
 
 # Method
 
 ### Definition
+A method is a function or procedure associated with an object or class. It is used to define the behavior of an object or class and can be called by other parts of the program or by other objects.
 
 # Multiple Inheritance
 
 ##3 Definition
+ It allows a class to inherit properties and behavior from more than one parent class. With multiple inheritance, a subclass can inherit from multiple base classes and have access to all of their methods and attributes.
 
 # Object
 
 ### Definition
+ An object is an instance of a class that encapsulates data and behaviors related to that data.
 
 # Function Overloading
 
 ### Definition
+In c++, It's where multiple functions can have the same name but different parameters or arguments.
 
 # Operator Overloading
 
 ### Definition
+It allows the same operator to be used with different types of operands or to have different meanings depending on the context. In C++, you can overload an operator, such as + (addition) or * (multiplication), to perform a specific task when applied to a user-defined class or data type.
 
 # Polymorphism
 
 ### Definition
+It's a concept that allows objects of different classes to be treated as if they are objects of the same class.
 
 # Public/Private/Protected
 
 ### Definition
+A public member can be accessed from anywhere in the program, including outside the class in which it is declared.
+A private member can only be accessed from within the class in which it is declared. It cannot be accessed from outside the class or from derived classes.
+A protected member can be accessed from within the class in which it is declared, as well as from derived classes.
+It cannot be accessed from outside the class or from unrelated classes.
 
 # Static
 
 ### Definition
+ The static keyword is used to create entities for the lifetime during that program that is independent of any particular object of the class or function invocation.
 
 # Virtual
 
 ### Definition
-
+ A virtual function is a function that can be overridden in derived classes. When a virtual function is called through a base class pointer or reference, the actual function called is determined at runtime based on the type of the object pointed to or referred to, not on the type of the pointer or reference.
