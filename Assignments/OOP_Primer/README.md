@@ -7,6 +7,7 @@
 # Abstraction
 
 ## Definition
+The process of hiding or abstracting away complex details of a system or software component to make it easier to use and understand. 
 
 # Attributes/Properties
 
