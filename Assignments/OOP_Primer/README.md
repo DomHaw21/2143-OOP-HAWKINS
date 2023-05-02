@@ -6,19 +6,19 @@
 
 # Abstraction
 
-## Definition
+### Definition
 It is the process of hiding or abstracting away complex details of a system or
 software component to make it easier to use and understand. One common form is data abstraction,
 which involves creating abstract data types that encapsulate data and related operations, and hiding the implementation details from the user.
 
 # Attributes/Properties
 
-## Definition
+### Definition
 Attributes, or properties, are defined as part of a class and are used to represent the state or characteristics of an object.
 
 # Class
 
-## Definition
+### Definition
 A class is a user-defined data type that encapsulates data and functions into 
 a single unit. A class can be seen as a blueprint or template for creating objects that share a common set of characteristics and behavior.
 
@@ -31,77 +31,78 @@ which have a separate copy for each object, a class variable has only one copy t
 
 # Composition
 
-## Definition
+### Definition
 composition is a design technique where a class contains one or more
 objects of other classes as member variables. This means that the class "composes" or is made up of other classes.
 
 # Constructor
 
-## Definition
+### Definition
 A constructor is a special method that is automatically called when an object of a class is created.
 They have the same name as the class and are defined within the class.
 They do not have a return type and cannot be called directly like regular methods.
 
 # Destructor
 
-## Definition
+### Definition
 The purpose of a destructor is to clean up any resources that the object may have allocated during its lifetime.
-The destructor for a class is automatically called when the object is destroyed or goes out of scope. Its syntax is repre
-sented by a (~)
+The destructor for a class is automatically called when the object is destroyed or goes out of scope. Its syntax is 
+represented by a (~)
 
 # Encapsulation
 
-## Definition
+### Definition
+
 
 # Friends
 
-## Definition
+### Definition
 
 # Inheritance
 
-## Definition
+### Definition
 
 # Instance Variable
 
-## Definition
+### Definition
 
 # Member/Local Variable
 
-## Definition
+### Definition
 
 # Method
 
-## Definition
+### Definition
 
 # Multiple Inheritance
 
-## Definition
+##3 Definition
 
 # Object
 
-## Definition
+### Definition
 
 # Function Overloading
 
-## Definition
+### Definition
 
 # Operator Overloading
 
-## Definition
+### Definition
 
 # Polymorphism
 
-## Definition
+### Definition
 
 # Public/Private/Protected
 
-## Definition
+### Definition
 
 # Static
 
-## Definition
+### Definition
 
 # Virtual
 
-## Definition
+### Definition
 
