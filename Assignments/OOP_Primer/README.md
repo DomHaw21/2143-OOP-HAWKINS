@@ -25,19 +25,29 @@ a single unit. A class can be seen as a blueprint or template for creating objec
 # Class Variable
 
 ## Definition
-
+A class variable, also known as a static data member, is a variable that is shared
+among all instances or objects of a class. Unlike instance variables,
+which have a separate copy for each object, a class variable has only one copy that is shared by all objects of the class.
 
 # Composition
 
 ## Definition
+composition is a design technique where a class contains one or more
+objects of other classes as member variables. This means that the class "composes" or is made up of other classes.
 
 # Constructor
 
 ## Definition
+A constructor is a special method that is automatically called when an object of a class is created.
+They have the same name as the class and are defined within the class.
+They do not have a return type and cannot be called directly like regular methods.
 
 # Destructor
 
 ## Definition
+The purpose of a destructor is to clean up any resources that the object may have allocated during its lifetime.
+The destructor for a class is automatically called when the object is destroyed or goes out of scope. Its syntax is repre-
+sented by a (~)
 
 # Encapsulation
 
