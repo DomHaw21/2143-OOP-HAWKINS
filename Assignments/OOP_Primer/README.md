@@ -52,19 +52,27 @@ represented by a (~)
 # Encapsulation
 
 ### Definition
-
+An object-oriented programming concept that refers to the ability of an object to hide its
+internal state, data, and implementation details from other objects.
 
 # Friends
 
 ### Definition
+A friend class can access private and protected members of other classes in which it is declared as a friend. 
+To declare a class as a friend of another class, the friend keyword is used in the class declaration of the class that is being granted access.
 
 # Inheritance
 
 ### Definition
+Inheritance is were the existing class is known as the base or parent class, while the new class is known as the derived or child class. The child class inherits properties and behaviors from its parent class, allowing it to reuse and extend the parent's functionality.
+Inheritance is typically used to model an "is-a" relationship between classes.
+
+For example, a car "is-a" vehicle, so a Car class can inherit from a Vehicle class, which may already contain properties and methods relevant to all vehicles. The Car class can then add its own properties and methods specific to cars.
 
 # Instance Variable
 
 ### Definition
+
 
 # Member/Local Variable
 
