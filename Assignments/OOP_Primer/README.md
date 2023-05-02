@@ -46,7 +46,7 @@ They do not have a return type and cannot be called directly like regular method
 
 ## Definition
 The purpose of a destructor is to clean up any resources that the object may have allocated during its lifetime.
-The destructor for a class is automatically called when the object is destroyed or goes out of scope. Its syntax is repre-
+The destructor for a class is automatically called when the object is destroyed or goes out of scope. Its syntax is repre
 sented by a (~)
 
 # Encapsulation
