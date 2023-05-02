@@ -66,30 +66,27 @@
 
 ## Definition
 
-
-
-## Definition
-
-
+# Function Overloading
 
 ## Definition
 
-
-
-## Definition
-
-
+# Operator Overloading
 
 ## Definition
 
-
-
-## Definition
-
-
+# Polymorphism
 
 ## Definition
 
-
+# Public/Private/Protected
 
 ## Definition
+
+# Static
+
+## Definition
+
+# Virtual
+
+## Definition
+
