@@ -7,19 +7,25 @@
 # Abstraction
 
 ## Definition
-The process of hiding or abstracting away complex details of a system or software component to make it easier to use and understand. 
+It is the process of hiding or abstracting away complex details of a system or
+software component to make it easier to use and understand. One common form is data abstraction,
+which involves creating abstract data types that encapsulate data and related operations, and hiding the implementation details from the user.
 
 # Attributes/Properties
 
 ## Definition
+Attributes, or properties, are defined as part of a class and are used to represent the state or characteristics of an object.
 
 # Class
 
 ## Definition
+A class is a user-defined data type that encapsulates data and functions into 
+a single unit. A class can be seen as a blueprint or template for creating objects that share a common set of characteristics and behavior.
 
 # Class Variable
 
 ## Definition
+
 
 # Composition
 
