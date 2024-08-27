@@ -133,7 +133,8 @@ private:
     * Returns:
     *      returns the piece of data that was popped off the list 
     */
-    int Pop() {
+    int Pop() 
+    {
         int temp = Container[Front];
         Front = (Front + 1) % QueSize;
         CurrentSize--;
