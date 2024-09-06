@@ -3,9 +3,9 @@
 *  Author:           Dominique Hawkins
 *  Email:            domhaw1242@gmail.com
 *  Label:            P01
-*  Title:            Linked List Vector Class
+*  Title:            Fraction Class
 *  Course:           CMPS 2143
-*  Semester:         Spring 2023
+*  Semester:         Fall 2024
 * 
 *  Description:
 *     This program is used to create a Linked List based vector class and 
