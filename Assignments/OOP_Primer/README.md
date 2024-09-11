@@ -1,8 +1,12 @@
 ## A04
 
 - Name: Dominique Hawkins
-- Date: 02 May 2023
+- Date: 06 Dec. 2024
 - Class: 2143 OOP
+
+# Abstract Classes and Interfaces
+
+### Definition
 
 # Abstraction
 
@@ -11,16 +15,14 @@ It is the process of hiding or abstracting away complex details of a system or
 software component to make it easier to use and understand. One common form is data abstraction,
 which involves creating abstract data types that encapsulate data and related operations, and hiding the implementation details from the user.
 
+# Access Modifiers (Public, Private, Protected)
+
+### Definition
+
 # Attributes/Properties
 
 ### Definition
 Attributes, or properties, are defined as part of a class and are used to represent the state or characteristics of an object.
-
-# Class
-
-### Definition
-A class is a user-defined data type that encapsulates data and functions into 
-a single unit. A class can be seen as a blueprint or template for creating objects that share a common set of characteristics and behavior.
 
 # Class Variable
 
@@ -29,25 +31,35 @@ A class variable, also known as a static data member, is a variable that is shar
 among all instances or objects of a class. Unlike instance variables,
 which have a separate copy for each object, a class variable has only one copy that is shared by all objects of the class.
 
+# Classes and Objects
+
+### Definition
+A class is a user-defined data type that encapsulates data and functions into 
+a single unit. An object is an instance of a class that encapsulates data and behaviors related to that data.
+
+# Collections and Iterators
+
+### Definition
+
 # Composition
 
 ### Definition
 composition is a design technique where a class contains one or more
 objects of other classes as member variables. This means that the class "composes" or is made up of other classes.
 
-# Constructor
+# Constructors and Destructors
 
 ### Definition
 A constructor is a special method that is automatically called when an object of a class is created.
 They have the same name as the class and are defined within the class.
 They do not have a return type and cannot be called directly like regular methods.
+A destructor is to clean up any resources that the object may have allocated during its lifetime.
+The destructor for a class is automatically called when the object is destroyed or goes out of scope. Its syntax is 
+represented by a (~).
 
-# Destructor
+# Design Patterns (e.g., Singleton, Factory, Observer)
 
 ### Definition
-The purpose of a destructor is to clean up any resources that the object may have allocated during its lifetime.
-The destructor for a class is automatically called when the object is destroyed or goes out of scope. Its syntax is 
-represented by a (~)
 
 # Encapsulation
 
@@ -55,11 +67,23 @@ represented by a (~)
 An object-oriented programming concept that refers to the ability of an object to hide its
 internal state, data, and implementation details from other objects.
 
+# Exception Handling
+
+### Definition
+
+# File I/O in OOP
+
+### Definition
+
 # Friends
 
 ### Definition
 A friend class can access private and protected members of other classes in which it is declared as a friend. 
 To declare a class as a friend of another class, the friend keyword is used in the class declaration of the class that is being granted access.
+
+# Generics and Templates
+
+### Definition
 
 # Inheritance
 
@@ -73,10 +97,18 @@ For example, a car "is-a" vehicle, so a Car class can inherit from a Vehicle cla
 ### Definition
 An instance variable is a variable that belongs to an instance of a class, also known as an object. Each instance of a class has its own set of instance variables, which can have different values for each object.
 
-# Member/Local Variable
+# Member Variable
 
 ### Definition
-Local variables are created when the method, constructor or block is entered and the variable will be destroyed once it exits the method, constructor, or block.
+Member variables are created when the method, constructor or block, is entered and the variable will be destroyed once it exits the method, constructor, or block.
+
+# Memory Management (Garbage Collection, Pointers)
+
+### Definition
+
+# Method Overloading
+
+### Definition
 
 # Method
 
@@ -85,23 +117,29 @@ A method is a function or procedure associated with an object or class. It is us
 
 # Multiple Inheritance
 
-##3 Definition
+### Definition
  It allows a class to inherit properties and behavior from more than one parent class. With multiple inheritance, a subclass can inherit from multiple base classes and have access to all of their methods and attributes.
 
-# Object
+# Multithreading in OOP (time permitting)
 
 ### Definition
- An object is an instance of a class that encapsulates data and behaviors related to that data.
 
-# Function Overloading
+# Object Relationships (Association, Aggregation, Composition)
 
 ### Definition
-In c++, It's where multiple functions can have the same name but different parameters or arguments.
+
+# Object-Oriented Design Principles
+
+### Definition
 
 # Operator Overloading
 
 ### Definition
 It allows the same operator to be used with different types of operands or to have different meanings depending on the context. In C++, you can overload an operator, such as + (addition) or * (multiplication), to perform a specific task when applied to a user-defined class or data type.
+
+# Overloading
+
+### Definition
 
 # Polymorphism
 
@@ -116,10 +154,22 @@ A private member can only be accessed from within the class in which it is decla
 A protected member can be accessed from within the class in which it is declared, as well as from derived classes.
 It cannot be accessed from outside the class or from unrelated classes.
 
-# Static
+# SOLID Principles
 
 ### Definition
- The static keyword is used to create entities for the lifetime during that program that is independent of any particular object of the class or function invocation.
+
+# Static (Methods and Variables)
+
+### Definition
+The static keyword is used to create entities for the lifetime during that program that is independent of any particular object of the class or function invocation.
+
+# Testing in OOP (Unit Testing, Test-Driven Development)
+
+### Definition
+
+# UML Diagrams and Modeling
+
+### Definition
 
 # Virtual
 
