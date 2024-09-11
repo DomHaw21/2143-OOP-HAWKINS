@@ -3,7 +3,7 @@
 |   #   | Folder Link | Assignment Description |
 | :---: | ----------- | ---------------------- |
 | 1 | [P01](https://github.com/DomHaw21/2143-OOP-HAWKINS/tree/main/Assignments/P01)| Program that creates a fraction class|
-| 2 | [P02](https://github.com/DomHaw21/2143-OOP-HAWKINS/tree/main/Assignments/P02)| Program that overloads assignment operators|
+| 2 | [A05]|Assignment that shows wsl installation|
 | 3 | [P03](https://github.com/DomHaw21/2143-OOP-HAWKINS/tree/main/Assignments/P03)| Program that creates a visualized graphviz "dot" stuct|
 | 4 | [P04](https://github.com/DomHaw21/2143-OOP-HAWKINS/tree/main/Assignments/P04)| Program that creates a Die/Dice representation|
 | 5 | [OOP_Primer](https://github.com/DomHaw21/2143-OOP-HAWKINS/tree/main/Assignments/OOP_Primer)|OOP definition/examples of diff concepts|
