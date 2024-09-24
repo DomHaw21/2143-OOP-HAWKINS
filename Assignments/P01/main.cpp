@@ -1,4 +1,7 @@
 #include <iostream>
+#include <numeric> 
+
+using namespace std;
 
 class Fraction {
 private:
@@ -7,87 +10,122 @@ private:
 
 public:
     // Constructor
-    Fraction(int num, int den) : numerator(num), denominator(den) {
-        // Consider validating that denominator is not 0
-    }
+    Fraction(int num, int den);
 
     // Overloaded addition operator
-    Fraction operator+(const Fraction& other) {
-        // TODO: Use LCM and LCD to add fractions correctly
-        // Add comments explaining how you use LCD and LCM to add fractions
-        // Steps:
-        // 1. Find the least common denominator (LCD)
-        // 2. Adjust both fractions to have this denominator
-        // 3. Add the numerators
-        // 4. Return the result as a new fraction
-    }
+    Fraction operator+(const Fraction&) const;
 
-    // Additional overloaded operators (students should implement these)
     // Overloaded subtraction operator
-    Fraction operator-(const Fraction& other) {
-        // TODO: Implement the subtraction logic
-    }
+    Fraction operator-(const Fraction&) const;
 
     // Overloaded multiplication operator
-    Fraction operator*(const Fraction& other) {
-        // TODO: Implement the multiplication logic
-    }
+    Fraction operator*(const Fraction&) const;
 
     // Overloaded division operator
-    Fraction operator/(const Fraction& other) {
-        // TODO: Implement the division logic
-    }
+    Fraction operator/(const Fraction&) const;
 
     // Overloaded equality operator (==)
-    bool operator==(const Fraction& other) const {
-        // TODO: Check if two fractions are equal by comparing numerators and denominators
-    }
+    bool operator==(const Fraction&) const;
 
     // Overload output operator (<<) for printing fractions
-    friend std::ostream& operator<<(std::ostream& os, const Fraction& frac) {
-        os << frac.numerator << "/" << frac.denominator;
-        return os;
-    }
+    friend ostream& operator<<(ostream& os, const Fraction& frac);
 
-    // TODO: Implement methods to read input from stdin (lecture topic)
+    // Function to simplify the fraction
+    void simplify();
+
+    // Utility functions for LCM and GCD
+    static int lcm(int a, int b);
+    static int gcd(int a, int b);
 };
 
-// Function to calculate Least Common Denominator (LCD)
-int Fraction::lcd(int a, int b) {
-    // TODO: Implement logic for LCD
+// Implementation
+
+Fraction::Fraction(int num, int den) : numerator(num), denominator(den) {
+    if (den == 0) {
+        throw invalid_argument("Denominator cannot be zero");
+    }
+    simplify();  // Simplify upon construction
 }
 
-// Function to calculate Least Common Multiple (LCM)
+Fraction Fraction::operator+(const Fraction& other) const {
+    int common_den = lcm(denominator, other.denominator);
+    int num1 = numerator * (common_den / denominator);
+    int num2 = other.numerator * (common_den / other.denominator);
+    return Fraction(num1 + num2, common_den);
+}
+
+Fraction Fraction::operator-(const Fraction& other) const {
+    int common_den = lcm(denominator, other.denominator);
+    int num1 = numerator * (common_den / denominator);
+    int num2 = other.numerator * (common_den / other.denominator);
+    return Fraction(num1 - num2, common_den);
+}
+
+Fraction Fraction::operator*(const Fraction& other) const {
+    return Fraction(numerator * other.numerator, denominator * other.denominator);
+}
+
+Fraction Fraction::operator/(const Fraction& other) const {
+    if (other.numerator == 0) {
+        throw std::invalid_argument("Cannot divide by zero");
+    }
+    return Fraction(numerator * other.denominator, denominator * other.numerator);
+}
+
+bool Fraction::operator==(const Fraction& other) const {
+    // Compare simplified versions of both fractions
+    return numerator * other.denominator == other.numerator * denominator;
+}
+
+ostream& operator<<(ostream& os, const Fraction& frac) {
+    os << frac.numerator << "/" << frac.denominator;
+    return os;
+}
+
+void Fraction::simplify() {
+    int gcd_value = gcd(numerator, denominator);
+    numerator /= gcd_value;
+    denominator /= gcd_value;
+    if (denominator < 0) {  // Normalize fraction to keep denominator positive
+        numerator = -numerator;
+        denominator = -denominator;
+    }
+}
+
 int Fraction::lcm(int a, int b) {
-    // TODO: Implement logic for LCM
+    return (a * b) / gcd(a, b);
 }
 
-// Additional overloaded operators (you should implement these)
-// Overloaded subtraction operator
-Fraction Fraction::operator-(const Fraction& other) {
-    // TODO: Implement the subtraction logic
+int Fraction::gcd(int a, int b) {
+    
+    while (b != 0) {
+        int temp = b;
+        b = a % b;
+        a = temp;
+    }
+    return a;
 }
 
-// Overloaded multiplication operator
-Fraction Fraction::operator*(const Fraction& other) {
-    // TODO: Implement the multiplication logic
-}
-
-// Overloaded division operator
-Fraction Fraction::operator/(const Fraction& other) {
-    // TODO: Implement the division logic
-}
-
+// Main function for testing
 int main() {
-    // TODO: Design an input file that matches the format x/y operator i/j
-    // Example: 1/2 + 3/4 should output 5/4 or 1 and 1/4, depending on how you format the output.
-
-    // Example usage (students should implement actual logic)
     Fraction frac1(1, 2);
     Fraction frac2(3, 4);
 
-    Fraction result = frac1 + frac2;  // This should call the overloaded + operator
-    std::cout << result << std::endl; // This will print the result
+    Fraction sum = frac1 + frac2;
+    Fraction diff = frac1 - frac2;
+    Fraction prod = frac1 * frac2;
+    Fraction quot = frac1 / frac2;
+
+    cout << "Sum: " << sum << endl;
+    cout << "Difference: " << diff << endl;
+    cout << "Product: " << prod << endl;
+    cout << "Quotient: " << quot << endl;
+
+    if (frac1 == frac2) {
+        cout << "Fractions are equal" << endl;
+    } else {
+        cout << "Fractions are not equal" << endl;
+    }
 
     return 0;
 }
