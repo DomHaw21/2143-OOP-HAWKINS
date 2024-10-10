@@ -11,8 +11,24 @@
 ## P02B - Knuckle Bones
 ### Description:
   This program will simulate a working game of knuckle bones (dice game). It will have more complexity with a player to player connection and an animated screen to visualize the game. 
-### Files
 
-|   #   | File     | Description                      |
-| :---: | -------- | -------------------------------- |
-|   1   ||main driver|
+### Class Player
+fname
+lname
+username
+roll_history
+score
+update_score
+roll_dice
+high_score
+bonus_roll
+
+### Class Game
+players<>
+rounds
+reset
+current_round
+add_player
+timer
+player_round
+get_winner
