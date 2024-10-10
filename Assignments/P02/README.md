@@ -12,7 +12,7 @@
 ### Description:
   This program will simulate a working game of knuckle bones (dice game). It will have more complexity with a player to player connection and an animated screen to visualize the game. 
 
-### Class Player
+## Class Player
 #### fname
 #### lname
 #### username
@@ -23,7 +23,7 @@
 #### high_score
 #### bonus_roll
 
-### Class Game
+## Class Game
 #### players<>
 #### rounds
 #### reset
