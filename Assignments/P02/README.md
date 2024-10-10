@@ -32,3 +32,4 @@ add_player
 timer
 player_round
 get_winner
+chat
