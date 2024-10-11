@@ -13,24 +13,24 @@
 
 - **Dice Class**: 
      - Data: `sides`, `current_value`
-     - Actions: `roll()`, `get_value()`
+     - Actions: `roll()`, `get_value()`, `reroll()`, `weighted_roll`
      - Relationships: Dice will be used by the Player to roll during the game.
+     - Dice **is a** Die
    
    - **Player Class**:
-     - Data: `name`, `score`, `dice_set`, `player_stats`
-     - Actions: `roll_dice()`, `get_score()`, `update_score()`
-     - Relationships: Each player has a set of dice and participates in the game.
+     - Data: `fname`, `lname`, `userid`, `score`, `dice_set`, `player_stats`, `emote`, `achievements`, `level`
+     - Actions: `roll_dice()`, `get_score()`, `update_score()`, `get_emote()`, `save_progress()`
    
    - **Game Class**:
-     - Data: `players`, `rules`, `current_round`, `tokens`
-     - Actions: `start_game()`, `end_game()`, `get_winner()`
+     - Data: `players`, `rules`, `current_round`, `tokens`, `high_score`, `leaderboards`
+     - Actions: `start_game()`, `end_game()`, `get_winner()`, `reset_game()`, `game_mode()`, `display_leaderboard()`
      - Relationships: The Game class controls the players and their actions.
 
    - **Knucklebones Class**:
-     - Data: `board`, `knucklebones_specific_rules`
-     - Actions: `start_round()`, `end_round()`, `calculate_winner()`
+     - Data: `board`, `knucklebones_specific_rules`, `badge`, `coins`, `teams`
+     - Actions: `start_round()`, `end_round()`, `calculate_winner()`, `get_badge()`, `get_teams`
      - Relationships: Inherits from Game, as Knucklebones **is a** game with specific rules and conditions.
-     - Knucklebones **has a** dice
+     - Knucklebones **has a** dice && **has a** player
      
 #### roll_dice(): Roll the dice for the player.
 #### get_score(): Retrieve the current score.
