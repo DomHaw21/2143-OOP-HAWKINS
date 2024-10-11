@@ -1,9 +1,9 @@
 ## Fraction Class Programm
 ### Dominique Hawkins
 ### Description: 
-		This assignment begins an initial design for our KnuckleBones game.
-    It will contain a template of what could be implemented into the actual game.
-    No real code is needed.
+	This assignment begins an initial design for our KnuckleBones game.
+    	It will contain a template of what could be implemented into the actual game.
+    	No real code is needed.
 ### Files
 |   #   | File     | Description                      |
 | :---: | -------- | -------------------------------- |
