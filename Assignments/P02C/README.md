@@ -8,7 +8,7 @@
 ### Files
 |   #   | File     | Description                      |
 | :---: | -------- | -------------------------------- |
-|   1   |[main.cpp]()| main driver to run the game|
+|   1   |[main.cpp](https://github.com/DomHaw21/2143-OOP-HAWKINS/blob/main/Assignments/P02C/main.cpp)| main driver to run the game|
 |   2   |[.hpp]()| |
 |   3   |[.hpp]()| |
 |   4   |[.hpp]()| |
