@@ -3,8 +3,7 @@
 ### Description: 
 		This program will implement a knucklebones game using the Ncurses library
 		that can handle window and grid creation, dice rolling, keyboard and mouse
-		inputs, and player turns. It will also have all the rules pertaining to the
-    game KnuckleBones.
+		inputs, and player turns. It will also have all the rules pertaining to the										game KnuckleBones.
 ### Files
 |   #   | File     | Description                      |
 | :---: | -------- | -------------------------------- |
