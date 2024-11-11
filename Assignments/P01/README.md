@@ -1,4 +1,4 @@
-## Fraction Class Programm
+## Fraction Class Program
 ### Dominique Hawkins
 ### Description: 
 		This program uses OOP techinques to display a fraction
