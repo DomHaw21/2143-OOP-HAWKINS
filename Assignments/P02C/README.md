@@ -9,7 +9,7 @@
 |   #   | File     | Description                      |
 | :---: | -------- | -------------------------------- |
 |   1   |[main.cpp](https://github.com/DomHaw21/2143-OOP-HAWKINS/blob/main/Assignments/P02C/main.cpp)| main driver to run the game|
-|   2   |[.hpp]()| |
+|   2   |[butonClass.hpp](https://github.com/DomHaw21/2143-OOP-HAWKINS/blob/main/Assignments/P02C/buttonClass.hpp)| Helper class to create a button|
 |   3   |[.hpp]()| |
 |   4   |[.hpp]()| |
 |   5   |[.hpp]()| |
