@@ -14,7 +14,7 @@
 |   4   |[diceClass.hpp](https://github.com/DomHaw21/2143-OOP-HAWKINS/blob/main/Assignments/P02C/diceClass.hpp)| Helper class that creates the game dice|
 |   5   |[gridClass.hpp](https://github.com/DomHaw21/2143-OOP-HAWKINS/blob/main/Assignments/P02C/gridClass.hpp)| Makes the grid-outline for the KB game|
 |   6   |[inputClass.hpp](https://github.com/DomHaw21/2143-OOP-HAWKINS/blob/main/Assignments/P02C/inputClass.hpp)| Handles the input needed for the game|
-|   7   |[logger.hpp]()| Logs the actions taking place for debugging|
+|   7   |[logger.hpp](https://github.com/DomHaw21/2143-OOP-HAWKINS/blob/main/Assignments/P02C/logger.hpp)| Logs the actions taking place for debugging|
 |   8   |[nCursed.hpp]()| Initializes the nCurses handling|
 |   9   |[player.hpp]()| Creates a player for the game|
 ### Instructions
