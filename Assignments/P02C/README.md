@@ -18,4 +18,9 @@
 |   8   |[nCursed.hpp](https://github.com/DomHaw21/2143-OOP-HAWKINS/blob/main/Assignments/P02C/nCursed.hpp)| Initializes the nCurses handling|
 |   9   |[player.hpp](https://github.com/DomHaw21/2143-OOP-HAWKINS/blob/main/Assignments/P02C/player.hpp)| Creates a player for the game|
 ### Instructions
-- This Program requires the Ncurses,  libraries
+- This Program requires the Ncurses library, along with:
+- All the neccessary hpp files
+- locale.h
+- ctime
+- string
+- vector
