@@ -11,7 +11,7 @@
 |   1   |[main.cpp](https://github.com/DomHaw21/2143-OOP-HAWKINS/blob/main/Assignments/P02C/main.cpp)| main driver to run the game|
 |   2   |[butonClass.hpp](https://github.com/DomHaw21/2143-OOP-HAWKINS/blob/main/Assignments/P02C/buttonClass.hpp)| Helper class to create a button|
 |   3   |[colors.hpp](https://github.com/DomHaw21/2143-OOP-HAWKINS/blob/main/Assignments/P02C/colors.hpp)| Class for creating different colors|
-|   4   |[diceClass.hpp]()| |
+|   4   |[diceClass.hpp](https://github.com/DomHaw21/2143-OOP-HAWKINS/blob/main/Assignments/P02C/diceClass.hpp)| Helper class that creates the game dice|
 |   5   |[gridClass.hpp]()| |
 |   6   |[inputClass.hpp]()| |
 |   7   |[logger.hpp]()| |
