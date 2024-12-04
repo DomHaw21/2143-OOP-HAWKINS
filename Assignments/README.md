@@ -8,4 +8,4 @@
 | 4 | [P02B](https://github.com/DomHaw21/2143-OOP-HAWKINS/tree/main/Assignments/P02B)| Game implementation of Ncurses|
 | 5 | [P02C](https://github.com/DomHaw21/2143-OOP-HAWKINS/tree/main/Assignments/P02C)| Final Knucklebones implementation|
 | 6 | [OOP_Primer](https://github.com/DomHaw21/2143-OOP-HAWKINS/tree/main/Assignments/OOP_Primer)|OOP definition/examples of diff concepts|
-| 7 | [P03_SFML](https://github.com/DomHaw21/2143-OOP-HAWKINS/tree/main/Assignments/P03_SFML))|KnuckleBones implementation with SMFL|
+| 7 | [P03_SFML](https://github.com/DomHaw21/2143-OOP-HAWKINS/tree/main/Assignments/P03_SFML)|KnuckleBones implementation with SMFL|
