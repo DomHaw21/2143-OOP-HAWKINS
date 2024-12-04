@@ -1,4 +1,4 @@
-## P02C_SFML KnuckleBones Program
+## P03_SFML KnuckleBones Program
 ### Dominique Hawkins
 ### Description: 
 		This program will implement a knucklebones game using SMFL, intead of nCurses.
