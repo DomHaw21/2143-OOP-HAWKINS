@@ -8,6 +8,6 @@
 ### Files
 |   #   | File     | Description                      |
 | :---: | -------- | -------------------------------- |
-|   1   |[main.cpp](https://github.com/DomHaw21/2143-OOP-HAWKINS/blob/main/Assignments/P02C_SFML/gameWindow.cpp)| main driver to run the game|
+|   1   |[gameWindow.cpp](https://github.com/DomHaw21/2143-OOP-HAWKINS/blob/main/Assignments/P02C_SFML/gameWindow.cpp)| program to display game window|
 |   2   |[]()||
 ### Instructions
