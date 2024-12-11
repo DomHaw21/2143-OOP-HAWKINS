@@ -8,6 +8,5 @@
 ### Files
 |   #   | File     | Description                      |
 | :---: | -------- | -------------------------------- |
-|   1   |[gameWindow.cpp]()| program to display game window|
-|   2   |[]()||
+|   1   |[startGame.cpp]()| program to start the game|
 ### Instructions
