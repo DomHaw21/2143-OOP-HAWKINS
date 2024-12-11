@@ -1,4 +1,4 @@
-## Fraction Class Programm
+## Implematation ideas
 ### Dominique Hawkins
 ### Description: 
 		This assignment begins an initial design for our KnuckleBones game.
