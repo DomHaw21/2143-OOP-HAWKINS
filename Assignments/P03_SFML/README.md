@@ -8,5 +8,5 @@
 ### Files
 |   #   | File     | Description                      |
 | :---: | -------- | -------------------------------- |
-|   1   |[startGame.cpp]()| program to start the game|
+|   1   |[startGame.cpp](https://github.com/DomHaw21/2143-OOP-HAWKINS/blob/main/Assignments/P03_SFML/startGame.cpp)| program to start the game|
 ### Instructions
